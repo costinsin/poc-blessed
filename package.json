@@ -47,11 +47,19 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-xterm": "^1.4.6",
+    "colors": "^1.4.0",
+    "copy-paste": "^1.5.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "@antfu/ni": "^0.21.12",
     "@antfu/utils": "^0.7.7",
-    "@types/node": "^20.11.19",
+    "@types/blessed": "^0.1.25",
+    "@types/copy-paste": "^1.1.33",
+    "@types/node": "^20.12.2",
     "bumpp": "^9.3.0",
     "eslint": "^8.56.0",
     "esno": "^4.0.0",
